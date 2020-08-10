@@ -1,8 +1,8 @@
 // from "moduleName" if the module is in the node_modules
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 //otherwise
 import SearchBar from "./SearchBar";
-import youtube from "../api/youtube";
+// import youtube from "../api/youtube";
 import useVideos from "../hooks/useVideos";
 
 import VideoList from "./VideoList";
